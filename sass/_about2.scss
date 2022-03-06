@@ -1,0 +1,342 @@
+.about-page{
+
+    
+
+    @import 'menu2';
+
+    .banner{
+        min-height: 90vh;
+        background: url('../images/table.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        position: relative;
+        //top: 5.7rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+      .text{
+          background-color: rgba(0, 0, 0, 0.616);
+          position: absolute;
+          top: 14rem;
+          padding: 4rem;
+          border-radius: 10px;
+
+            h2{
+                font-family: $headers;
+                letter-spacing: 2px;
+                text-align: center;
+                font-size: 4rem;
+                color: #fff;
+                //padding-top: 3rem;
+
+                span{
+                    color: $turq;
+                }
+            }
+            p{
+                font-family: $normal;
+                letter-spacing: 1px;
+                text-align: center;
+                font-size: 2rem;
+                color: #fff;
+                padding-top: 1rem;
+
+        }
+      }
+    }
+
+    .about-text{
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        margin: 0 auto;
+        padding: 1rem;
+        margin-top: 6rem;
+
+        .img{
+            width: 550px;
+            height: 550px;
+
+            img{
+                width: 550px;
+                height: 550px;
+                border-radius: 50%;
+                border: 15px solid white;
+            }
+        }
+        .txt{
+            width: 800px;
+
+            h3{
+                padding: 1rem;
+                font-family: $sub-headers;
+                letter-spacing: 2px;
+                font-size: 4rem;
+            }
+            hr{
+                margin-left: 1rem;
+                width: 55%;
+                height: 20px;
+                background: $turq;
+                color: $turq;
+            }
+            p{
+                border-radius: 20px;
+                padding: 1rem;
+                font-family: $sub-headers;
+                letter-spacing: 1px;
+                font-size: 1.8rem;
+                background: rgba(255, 255, 255, 0.445);
+                line-height: 2.3rem;
+            }
+        }
+    }
+
+    #wave{
+        position: relative;
+        margin-top: -23rem;
+        z-index: -1;
+    }
+
+    .motivation{
+        background: $turq;
+        margin-top: -2rem;
+
+        h3{
+            font-family: $normal;
+            font-size: 4rem;
+            text-align: center;
+            letter-spacing: 2px;
+        }
+
+        .container{
+            width: 70%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            padding-top: 3rem;
+            padding-bottom: 6rem;
+
+            .box{
+                width: 520px;
+               // height: 200px;
+               display: flex;
+               letter-spacing: 1px;
+               padding: 1rem;
+    
+                .icon{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-right: 0.8rem;
+    
+                    i{
+                        font-size: 6rem;
+                    }
+                }
+                .txt{
+    
+                    h5{
+                        font-size: 1.3rem;
+                        font-family: $headers;
+                    }
+                    p{
+                        font-size: 1.1rem;
+                        font-family: $sub-headers;
+                    }
+                }
+            }
+        }
+    }
+
+    .services{
+        padding: 5rem;
+        position: relative;
+        min-height: 100vh;
+        height: auto;
+        margin-bottom: 16rem;
+
+        h2{
+            text-align: center;
+            font-size: 4rem;
+            font-family: $headers;
+            letter-spacing: 2px;
+            color: $myBlue;
+        }
+
+        hr{
+            height: 10px;
+            width: 40%;
+            color: $myBlue;
+            background: $myBlue;
+            margin: 0 auto;
+        }
+
+        .item{
+            display: flex;
+            position: relative;
+            //border: 2px solid rgb(98, 0, 255);
+            margin:  2.5rem 0;
+            
+            .num{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: #fff;
+                background: $myBlue;
+                width: 70px;
+                height: 70px;
+                font-size: 3rem;
+                font-family: $headers;
+            }
+            p{
+                position: absolute;
+                font-size: 1.7rem;
+                font-family: $headers;
+                letter-spacing: 2px;
+                left: 5rem;
+                top: 1rem;
+
+            }
+
+            ul{
+                position: absolute;
+                top: 5rem;
+                left: 7rem;
+                font-family: $normal;
+                font-size: 1.5rem;
+                letter-spacing: 1px;
+                font-weight: 600;
+            }
+        }
+
+        #item4{
+            top: 20rem;
+        }
+        #item5{
+            top: 20rem;
+        }
+    }
+
+    .team-section{
+        background: #e0e0e0;
+
+        .header{
+            font-family: $sub-headers;
+            font-size: 4rem;
+            letter-spacing: 2px;
+            text-align: center;
+            padding-top: 8rem;
+        }
+
+        .container{
+            width: 85%;
+            margin: 0 auto;
+            padding: 4rem 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+
+            .card{
+                width: 250px;
+                height: 330px;
+                padding: 1.4rem;
+                border-radius: 20px;
+                margin: 3rem 3rem;
+                background: #e0e0e0;
+                box-shadow:  20px 20px 60px #bebebe,
+                    -20px -20px 60px #ffffff;
+        
+
+                .img{
+                    width: 200px;
+                    height: 200px;
+
+
+                    img{
+                        width: 200px;
+                        height: 200px;
+                        border-radius: 50%;
+                    }
+                }
+                .name{
+                    padding-top: 0.3rem;
+                    font-family: $headers;
+                    font-size: 1rem;
+                    letter-spacing: 1px;
+                    text-align: center;
+                }
+                .title{
+                    padding-top: 0.3rem;
+                    font-family: $normal;
+                    font-size: 1.1rem;
+                    letter-spacing: 1px;
+                    text-align: center;
+                }
+                .social-icons{
+                    padding-top: 0.3rem;
+                    display: flex;
+                    justify-content: space-between;
+                    width: 60%;
+                    margin: 0 auto;
+
+                    i{
+                        font-size: 1.1rem;
+                        color: $onyx;
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+    footer{
+        margin-top: 0;
+        background: $onyx;
+    
+        .footer-info{
+            display: flex;
+    
+          .div-one{
+              padding: 3rem 0 1rem 4rem;
+    
+            h6{
+                color: #fff;
+                font-family: $sub-headers;
+                letter-spacing: 1px;
+            }
+            a{
+                text-decoration: none;
+                color: $lightBlue;
+                font-family: $headers;
+                font-size: 0.8rem;
+                display: block;
+                padding: 0.2rem 0;
+                letter-spacing: 1px;
+    
+                &:hover{
+                    color: #ccc;
+                }
+            }
+          }
+        }
+        
+        p{
+            padding: 2rem;  
+            text-align: center;      
+            color: #fff;
+            font-family: $normal;
+            letter-spacing: 1px
+        }
+    }
+
+
+}

@@ -1,0 +1,621 @@
+@media only screen and (min-width: 451px) and (max-width: 697px){
+    
+    
+    .landing-page{
+        padding: 0;
+
+        .container{
+
+            width: 100%;
+            height: 100vh;
+
+            .content{
+
+                .content-body{
+  
+                   .content1{
+                       width: 100%;
+                       padding-left: 1rem;
+    
+                        h1{
+                            font-size: 2em;
+                            margin: 2rem 0rem 0 0rem;
+                            text-align: center;
+    
+                        }
+    
+                        h2{
+                            margin: 0;
+                            font-size: 1.5em;
+                            padding-left: 0.5rem;
+                            padding-top: 4rem;
+                        }
+                        hr{
+                            background: #fff;
+                            height: 3px;
+                            margin: 0.5rem 0 1rem 0;
+                        }
+    
+                        ul{
+                            padding-left: 2rem;
+        
+                            li{
+                                color: #fff;
+                                font-size: 1.1em;
+                                letter-spacing: 1px;
+                                line-height: 1.6rem;        
+                            }
+                        }
+    
+                        #btn{
+                            margin: 3.5rem 0 0 2rem;
+        
+                            a{
+                                font-size: 1rem;
+                                text-decoration: none;
+                                color: #fff;
+                                border: 1px solid #fff;
+                                padding: .9rem 6rem;
+                                border-radius: 25px;
+                            }
+                        }
+                   }
+    
+                   .content2{
+                        width: 0%;
+                        display: none;
+                        img{
+                            display: none;
+                        }
+                   }
+                }
+            }
+        }
+    }
+    .stats{
+        
+        font-size: 1.5rem;
+        margin-top: 0rem;
+        min-height: 550px;
+        margin-bottom: 0rem;
+        
+    
+        .stats-container{
+            top: 1rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    
+    
+            .teller {
+                padding-bottom: 1rem;
+                width: 150px;
+                height: 8rem;
+                font-size: 1.5rem;
+                margin: 1.2rem;
+                border-radius: 20px;
+              }
+    
+              #mid{
+                margin-top: 1.2rem;
+              }
+              i{
+                  font-size: 2rem;
+              }
+              
+              .label {
+                  font-size: 1rem;
+              }
+              
+        }
+        
+    }
+
+
+    .curved-div{
+        display: none;
+    }
+
+    .guarantee{
+        margin-top: 2rem;
+        width: 100vw;
+        padding: 1rem;
+        background: none;
+        margin-bottom: 2rem;
+    
+    
+        h3{
+            //text-align: center;
+            padding: 0;
+            font-size: 1.2em;
+            margin-left: 1rem;
+        }
+        hr{     
+            width: 99%;
+            margin: 0 auto;
+            height: 5px;
+            margin-bottom: 1rem;
+        }
+        ul{
+            padding-left: 1rem;
+            font-size: 1em;
+            letter-spacing: 1px;
+            line-height: 1.2rem;
+        }
+    }
+
+    .to-faq{
+        height: 330px;
+        background-attachment: scroll;
+    
+        .content{
+            height: 330px;
+    
+            h3{
+                letter-spacing: 1px;
+                font-size: 1rem;
+            }
+            
+            #txt1{
+                padding-top: 6rem;
+            }
+    
+            #btn{
+                border: 2px solid $turq;
+                width: 40%;
+                padding: 0.8rem;
+                font-size: 0.8rem;
+                margin-top: 3rem;
+                letter-spacing: 1px;
+
+            }
+        }
+    }
+    
+    .testimonials{
+        min-height: 600px;
+        font-size: 14px;
+        padding: 3rem 0 6rem 0;
+    
+        h3{
+            font-size: 0.8rem;
+            letter-spacing: 1px;
+        }
+        h2{
+            padding-top: 1rem;
+            font-size: 1.5rem;
+            letter-spacing: 1px;
+        }
+        hr{
+            height: 3px;
+        }
+    
+    
+            
+                .testim {
+                    top: 57%;;
+                }
+    
+                .testim .wrap {
+                    padding: 40px 0px;
+                }
+    
+                .testim .arrow {
+                    font-size: 2em;
+                }
+
+                .testim .arrow.left {
+                    left: 2px;
+                }
+    
+                .testim .arrow.right {
+                    right: 2px;
+                }
+    
+                .testim .dots {
+                    height: 8px;
+                }
+    
+                .testim .dots .dot {
+                    width: 8px;
+                    height: 8px;
+                }
+    
+
+
+    
+                .testim .cont div .img img {
+                    width: 100px;
+                    height: 100px;
+                    border: 2px solid $turq;
+                }
+    
+                .testim .cont div h2 {
+                    font-size: 1.1em;
+                    letter-spacing: 1px;
+                    margin: 15px 0;
+    
+                    i{
+                        font-size: 0.7em;
+                    }
+                }
+    
+                .testim .cont div p {
+                    font-size: 1em;
+                    width: 85%;
+                }
+    }
+
+ 
+    .newsletter{
+  
+        $inputHeight: 60px;
+        $primaryColor: $turq;
+    
+    
+        font-family: $headers;
+        background: $primaryColor;
+        text-align: center;
+        min-height: 400px;
+        display: flex;
+        justify-content: center;
+        padding-top: 3.2rem;
+        margin:  0rem 0 0 0;
+    
+        .container {
+            width: 350px;
+            margin: 0 4rem;
+          }
+          
+          h1 {
+            font-size: 2rem;
+            font-weight: 300;
+            letter-spacing: 0.025em;
+            padding-top: 2.5rem;
+            
+            strong {
+              font-weight: 400;
+            }
+          }
+          
+          form {
+            width: 348px;
+            position: relative;
+            display: block;
+            height: $inputHeight;
+            border-radius: 0.5*$inputHeight;
+            background: white;
+            margin: 0 auto;
+            box-shadow: 0 8px 32px rgba(0,0,0,.28);
+            overflow: hidden;
+            margin-top: 2rem;
+            
+            input {
+              line-height: $inputHeight;
+              padding: 0;
+              border: none;
+              outline: none;
+              font-size: 1rem;
+              font-weight: 300;
+              background: #eee;
+              letter-spacing: 0.02em;
+              
+              &:not([type=submit]) {
+                width: 100%;
+                display: block;
+                padding: 0 150px 0 30px;
+              }
+              
+              &:not([type=email]) {
+                position: absolute;
+                height: $inputHeight - 20px;
+                line-height: $inputHeight - 20px;
+                top: 10px;
+                right: 10px;
+                border-radius: 0.5*($inputHeight - 20px);
+                padding: 0 25px;
+                background: lighten($primaryColor, 5%);
+                color: white;
+                cursor: pointer;
+                
+                &:hover {
+                  background: darken($primaryColor, 10%);
+                }
+              }
+              
+              &:focus {
+                outline: none;
+                background: white;
+              }
+            }
+          }
+    
+          .img{
+            display: none;
+          }
+    
+    }
+
+    footer{
+        margin-top: 0rem;
+        background: $onyx;
+    
+        .footer-info{
+            display: flex;
+            //flex-direction: column;
+            flex-wrap: wrap;
+    
+          .div-one{
+              padding: 3rem 0 1rem 3rem;
+    
+            h6{
+                color: #fff;
+                font-family: $sub-headers;
+                letter-spacing: 0.6px;
+                font-size: 0.6rem;
+            }
+            a{
+                color: $lightBlue;
+                font-family: $headers;
+                font-size: 0.7rem;
+                display: block;
+                padding: 0.2rem 0;
+                letter-spacing: 0.6px;
+    
+                &:hover{
+                    color: #ccc;
+                }
+            }
+          }
+        }
+        
+        p{
+            padding: 2rem;  
+            text-align: center;      
+            color: #fff;
+            font-family: $normal;
+            letter-spacing: 1px;
+            font-size: 0.8rem;
+        }
+    }
+
+    .about-page{
+
+        .banner{
+            min-height: 100vh;
+            background-attachment: scroll;
+
+          .text{
+              top: 12rem;
+    
+                h2{
+                    font-size: 1.3rem;
+                }
+                p{
+                    font-size: 0.8rem;
+    
+            }
+          }
+        }
+    
+        .about-text{
+            width: 100%;;
+            padding: 1rem;
+            margin-top: 1rem;
+    
+            .img{
+                display: none;
+            }
+            .txt{
+                width: 100vw;
+    
+                h3{
+                    padding: 1rem;
+                    font-size: 1.3rem;
+                }
+                hr{
+                    height: 8px;
+                }
+                p{
+                    letter-spacing: 1px;
+                    font-size: 1rem;
+                    line-height: 1.4rem;
+                }
+            }
+        }
+
+        .motivation{
+            margin-top: -1rem;
+    
+            h3{
+                font-size: 1.7rem;
+                padding-top: 3rem;
+            }
+    
+            .container{
+                width: 100%;
+                padding-top: 0.5rem;
+                padding-bottom: 4rem;
+    
+                .box{
+                    width: 98%;
+                   // height: 200px;
+        
+                    .icon{
+        
+                        i{
+                            font-size: 2rem;
+                        }
+                    }
+                    .txt{
+        
+                        h5{
+                            font-size: 1rem;
+                        }
+                        p{
+                            font-size: 1rem;
+                        }
+                    }
+                }
+            }
+        }
+    
+        .services{
+            padding: 1rem;
+    
+            h2{
+                font-size: 1.6rem;
+            }
+    
+            .item{
+                
+                .num{
+                    width: 40px;
+                    height: 40px;
+                    font-size: 1rem;
+                }
+                p{
+                    font-size: 1rem;
+                    letter-spacing: 1px;
+                    left: 3rem;
+                    top: 0.4rem;
+    
+                }
+    
+                ul{
+                    top: 4rem;
+                    left: 4.5rem;
+                    font-size: 1rem;
+                    letter-spacing: 1px;
+                }
+            }
+    
+            #item4{
+                top: 15rem;
+            }
+            #item5{
+                top: 15rem;
+            }
+        }
+    
+        .team-section{
+    
+            .header{
+                font-size: 1.4rem;
+                padding-top: 3rem;
+            }
+    
+            .container{
+                margin: 0 auto;
+
+            }
+        }
+
+    }
+
+    .faq-page{
+
+        @import 'menu2';
+    
+        .banner{
+            min-height: 100vh;
+            background-attachment: scroll;
+    
+            h2{
+                top: 12rem;
+                font-size: 1.4rem;
+            }
+    
+            .wrapper {
+                top: 8rem;
+              }
+              
+              .container {
+                padding: 8rem;
+                width: 65vw;
+                background: #40e0d000;
+            
+              }
+              
+              input[type="search"] {
+                font-size: 1rem;
+              }
+
+              input.search-field {
+                height: 41px;
+              }
+              
+              input.search-submit {
+                height: 41px;
+                padding: 0.5rem 0.8rem;
+                font-size: 1rem;
+              }
+
+
+        }
+    
+        .questions{
+            padding: 1rem 0;
+
+                .accordion {
+                    width: 90%;
+                    max-width: 90%;
+                }
+                .accordion-item-header {
+                    font-weight: lighter;
+                }
+                .accordion-item-header::after {
+                    content: "\002B";
+                    font-size: 1rem;
+                }
+
+                .accordion-item-body-content {
+                    letter-spacing: 0.8px;
+                    font-size: 0.9rem;
+                }
+        }
+    
+        .communicate{
+            height: 280px;
+    
+            .content{
+                height: 280px;
+    
+                h3{
+                    padding-top: 3rem;
+                    font-size: 1.1rem;
+                }
+                h4{
+                    padding-top: 1rem;
+                    font-size: 1.6rem;
+                }
+                form{
+                    margin-top: 0.3rem;
+      
+                    label{
+                      font-size: 1rem;
+                      letter-spacing: 1px;
+
+                      #myemail{
+                        width: 300px;
+                        line-height: 1.5rem;
+                        font-size: 1rem;
+                        letter-spacing: 1px;
+                      }
+                      #mytextarea{
+                        min-height: 100px;
+                        line-height: 1.5rem;
+                        font-size: 1rem;
+                      }
+                    }
+                  }
+      
+                  button{
+                      padding: 0.6rem 1.8rem;
+                      margin-top: 1.5rem;
+                      font-size: 0.8rem;
+                  }
+            }
+        }
+    }
+}

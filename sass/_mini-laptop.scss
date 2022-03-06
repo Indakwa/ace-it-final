@@ -1,0 +1,321 @@
+@media only screen and (min-width: 801px) and (max-width: 1270px){
+
+    .landing-page{
+  
+        .container{
+            width: 95%;
+            min-height: 635px; 
+    
+            .content{
+
+                .content-body{
+
+    
+                   .content1{
+                    padding-left: 4rem;
+    
+                        h1{
+                            font-size: 3.2em;
+                            letter-spacing: 1px;    
+                        }
+    
+                        h2{
+                            font-size: 2.5em;
+                            letter-spacing: 1px;
+                        }
+    
+                        ul{
+        
+                            li{
+                                font-size: 1.3em;
+                                letter-spacing: 1.5px;
+                                line-height: 2.5rem;        
+                            }
+                        }
+                   }
+
+                   .content2{
+                    width: 30%;
+
+
+                    img{
+                        margin-top: 7rem;
+                        height: 350px;
+                        width: 350px;
+                    }
+
+               }
+
+                }
+            }
+           
+    
+        }
+    
+    }
+
+    .guarantee{
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 8rem;
+        padding: 4rem;
+    
+    
+        h3{
+            margin-left: 1rem;
+            padding: 0 0 0 6rem;
+        }
+        ul{
+            padding-left: 4rem;
+            font-size: 1.5em;
+            line-height: 2.5rem;
+        }
+    }
+
+    .to-faq{
+        height: 600px;
+        
+        .content{
+            height: 600px;
+    
+            h3{
+                font-size: 3rem;
+            }
+            
+            #txt1{
+                padding-top: 10rem;
+            }
+ 
+        }
+    }
+
+    .nav{
+        visibility: visible;
+
+        
+        .logo-div{
+            width: 20vw;
+            margin: 0 26% 0 2rem;
+
+            a{
+                font-weight: 600;
+                position: absolute;
+                color: #fff;
+                top: 1.8rem;
+                left: 4rem;
+                padding: 1rem;
+            }
+        }
+
+        .menu-nav{
+            display: block;
+            transform: translateY(0);
+          //  height: 100%;
+            background: transparent;
+
+            &_item{
+                display: inline;
+                padding-right: 1.5rem;
+            }
+
+            &_link{
+                text-transform: capitalize;
+                font-size: 1rem;
+                padding: 1rem;
+                margin-top: 1rem;
+
+                &:hover{
+                    color: #fff;
+                    background: $myBlue;
+                }
+            }
+        }
+    }
+
+    .about-page{
+    
+        .banner{
+            min-height: 100vh;
+          .text{
+    
+                h2{
+                    font-size: 2rem;
+                }
+
+          }
+        }
+    
+        .about-text{
+            width: 100%;
+            margin-top: 3rem;
+    
+            .img{
+                width: 350px;
+                height: 350px;
+    
+                img{
+                    width: 350px;
+                    height: 350px;
+                }
+            }
+            .txt{
+                width: auto;
+    
+                h3{
+                    font-size: 2rem;
+                }
+                hr{
+                    height: 10px;
+                }
+                p{
+                    font-size: 1rem;
+                    line-height: 1.3rem;
+                }
+            }
+        }
+    
+        .motivation{
+            margin-top: -1rem;
+    
+            h3{
+                padding-top: 2rem;
+                font-family: $normal;
+                font-size: 2rem;
+            }
+    
+            .container{
+                width: 100%;
+                padding-top: 1rem;
+                padding-bottom: 4rem;
+    
+                .box{
+                    width: 48%;
+        
+                    .icon{
+        
+                        i{
+                            font-size: 2.2rem;
+                        }
+                    }
+                    .txt{
+        
+                        h5{
+                            font-size: 1rem;
+                        }
+                        p{
+                            font-size: 1rem;
+                        }
+                    }
+                }
+            }
+        }
+    
+        .services{
+            padding: 2rem;
+            margin-bottom: 13rem;
+    
+            h2{
+                font-size: 2rem;
+            }
+
+    
+            .item{
+                margin:  2rem 0;
+                
+                .num{
+                    width: 50px;
+                    height: 50px;
+                    font-size: 2rem;
+                }
+                p{
+                    font-size: 1rem;
+                    left: 3.5rem;
+                    top: 0.8rem;
+    
+                }
+    
+                ul{
+                    top: 3rem;
+                    left: 5rem;
+                    font-size: 1rem;
+                    line-height: 1.3rem;
+                }
+            }
+    
+            #item4{
+                top: 14rem;
+            }
+            #item5{
+                top: 14rem;
+            }
+        }
+    
+        .team-section{
+    
+            .header{
+                font-size: 2rem;
+                padding-top: 3rem;
+            }
+    
+            .container{
+                width: 100%;
+                margin: 0 auto;
+                padding: 2rem 0;
+            }
+        }
+
+    }
+
+    .faq-page{
+
+        @import 'menu2';
+    
+        .banner{
+            min-height: 400px;
+    
+            h2{
+                top: 11rem;
+                font-size: 2rem;
+            }
+    
+            .wrapper {
+                top: 9rem;
+              }
+              
+              .container {
+                padding: 5rem;
+                width: 75vw;
+              }
+
+        }
+
+            
+        .questions{
+            padding: 1rem 0;
+        }
+
+        .communicate{
+
+            .content{
+    
+                h3{
+                    padding-top: 5rem;
+                    font-size: 1.6rem;
+                    letter-spacing: 1.6px;
+                }
+                h4{
+                    padding-top: 0.8rem;
+                    font-size: 1.3rem;
+                }
+                p{
+                    padding-top: 0.8rem;
+                    font-size: 1rem;
+                    letter-spacing: 1px;
+                }
+              
+            }
+        }
+       
+    }
+
+}
