@@ -460,7 +460,7 @@ html, body {
   margin-top: -17rem;
   position: relative;
   min-height: 650px;
-  margin-bottom: 8rem;
+  margin-bottom: 0rem;
 }
 
 .stats :root {
@@ -538,6 +538,84 @@ html, body {
   font-size: 1.25rem;
   font-family: "Lato", sans-serif;
   font-weight: 900;
+}
+
+.services-home {
+  background: #e0e0e0;
+  padding: 0 5rem 25rem 5rem;
+  position: relative;
+  min-height: 100vh;
+  height: auto;
+  margin-bottom: 8rem;
+}
+
+.services-home h2 {
+  text-align: center;
+  font-size: 4rem;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 2px;
+  color: #0093E9;
+}
+
+.services-home hr {
+  height: 10px;
+  width: 40%;
+  color: #0093E9;
+  background: #0093E9;
+  margin: 0 auto;
+}
+
+.services-home .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  margin: 2.5rem 0;
+}
+
+.services-home .item .num {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  background: #0093E9;
+  width: 70px;
+  height: 70px;
+  font-size: 3rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.services-home .item p {
+  position: absolute;
+  font-size: 1.7rem;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 2px;
+  left: 5rem;
+  top: 1rem;
+}
+
+.services-home .item ul {
+  position: absolute;
+  top: 5rem;
+  left: 7rem;
+  font-family: "Lato", sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.services-home #item4 {
+  top: 20rem;
+}
+
+.services-home #item5 {
+  top: 20rem;
 }
 
 .guarantee {
@@ -2667,6 +2745,36 @@ footer p {
   .stats .stats-container .label {
     font-size: 1rem;
   }
+  .services-home {
+    padding: 1rem 1rem 17rem 1rem;
+    margin-bottom: 2rem;
+  }
+  .services-home h2 {
+    font-size: 1.6rem;
+  }
+  .services-home .item .num {
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
+  }
+  .services-home .item p {
+    font-size: 1rem;
+    letter-spacing: 1px;
+    left: 3rem;
+    top: 0.4rem;
+  }
+  .services-home .item ul {
+    top: 4rem;
+    left: 4.5rem;
+    font-size: 1rem;
+    letter-spacing: 1px;
+  }
+  .services-home #item4 {
+    top: 15rem;
+  }
+  .services-home #item5 {
+    top: 15rem;
+  }
   .curved-div {
     display: none;
   }
@@ -3377,7 +3485,7 @@ footer p {
 @media only screen and (min-width: 698px) and (max-width: 800px) {
   .landing-page .container {
     width: 95%;
-    height: 90vh;
+    height: 95vh;
   }
   .landing-page .container .content .nav .logo {
     top: 40px;
@@ -3450,7 +3558,7 @@ footer p {
     font-size: 1.5rem;
     margin-top: -17rem;
     min-height: 550px;
-    margin-bottom: 4rem;
+    margin-bottom: 0rem;
   }
   .stats .stats-container .teller {
     padding-bottom: 1rem;
@@ -3466,6 +3574,38 @@ footer p {
   }
   .stats .stats-container .label {
     font-size: 1rem;
+  }
+  .services-home {
+    padding: 0 5rem 18rem 5rem;
+    margin-bottom: 4rem;
+  }
+  .services-home h2 {
+    font-size: 2rem;
+  }
+  .services-home .item {
+    margin: 2rem 0;
+  }
+  .services-home .item .num {
+    width: 50px;
+    height: 50px;
+    font-size: 2rem;
+  }
+  .services-home .item p {
+    font-size: 1rem;
+    left: 3.5rem;
+    top: 0.8rem;
+  }
+  .services-home .item ul {
+    top: 3rem;
+    left: 5rem;
+    font-size: 1rem;
+    line-height: 1.3rem;
+  }
+  .services-home #item4 {
+    top: 14rem;
+  }
+  .services-home #item5 {
+    top: 14rem;
   }
   .guarantee {
     width: 100vw;
@@ -4042,6 +4182,36 @@ footer p {
   .stats .stats-container .label {
     font-size: 1rem;
   }
+  .services-home {
+    padding: 1rem 1rem 17rem 1rem;
+    margin-bottom: 2rem;
+  }
+  .services-home h2 {
+    font-size: 1.6rem;
+  }
+  .services-home .item .num {
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
+  }
+  .services-home .item p {
+    font-size: 1rem;
+    letter-spacing: 1px;
+    left: 3rem;
+    top: 0.4rem;
+  }
+  .services-home .item ul {
+    top: 4rem;
+    left: 4.5rem;
+    font-size: 1rem;
+    letter-spacing: 1px;
+  }
+  .services-home #item4 {
+    top: 15rem;
+  }
+  .services-home #item5 {
+    top: 15rem;
+  }
   .curved-div {
     display: none;
   }
@@ -4225,7 +4395,7 @@ footer p {
     display: none;
   }
   footer {
-    margin-top: 4rem;
+    margin-top: 0rem;
     background: #373449;
   }
   footer .footer-info {
@@ -4752,6 +4922,38 @@ footer p {
     height: 350px;
     width: 350px;
   }
+  .services-home {
+    padding: 0 5rem 18rem 5rem;
+    margin-bottom: 6rem;
+  }
+  .services-home h2 {
+    font-size: 2rem;
+  }
+  .services-home .item {
+    margin: 2rem 0;
+  }
+  .services-home .item .num {
+    width: 50px;
+    height: 50px;
+    font-size: 2rem;
+  }
+  .services-home .item p {
+    font-size: 1rem;
+    left: 3.5rem;
+    top: 0.8rem;
+  }
+  .services-home .item ul {
+    top: 3rem;
+    left: 5rem;
+    font-size: 1rem;
+    line-height: 1.3rem;
+  }
+  .services-home #item4 {
+    top: 14rem;
+  }
+  .services-home #item5 {
+    top: 14rem;
+  }
   .guarantee {
     width: 90%;
     margin: 0 auto;
@@ -5242,7 +5444,7 @@ footer p {
 @media only screen and (min-width: 1271px) and (max-width: 1500px) {
   .landing-page .container {
     width: 85%;
-    min-height: 635px;
+    min-height: 700px;
   }
   .landing-page .container .content .content-body .content1 h1 {
     font-size: 3.7em;
@@ -5256,6 +5458,9 @@ footer p {
     font-size: 1.3em;
     letter-spacing: 1.5px;
     line-height: 2.5rem;
+  }
+  .services-home {
+    padding: 0 5rem 25rem 5rem;
   }
   .nav {
     visibility: visible;
@@ -5985,7 +6190,7 @@ footer p {
   .stats {
     font-size: 1.5rem;
     margin-top: 0rem;
-    min-height: 550px;
+    min-height: 200px;
     margin-bottom: 0rem;
   }
   .stats .stats-container {
@@ -6016,6 +6221,36 @@ footer p {
   }
   .stats .stats-container .label {
     font-size: 1rem;
+  }
+  .services-home {
+    padding: 0 1rem 15rem 1rem;
+    margin-bottom: 2rem;
+  }
+  .services-home h2 {
+    font-size: 1.6rem;
+  }
+  .services-home .item .num {
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
+  }
+  .services-home .item p {
+    font-size: 1rem;
+    letter-spacing: 1px;
+    left: 3rem;
+    top: 0.4rem;
+  }
+  .services-home .item ul {
+    top: 4rem;
+    left: 4.5rem;
+    font-size: 1rem;
+    letter-spacing: 1px;
+  }
+  .services-home #item4 {
+    top: 15rem;
+  }
+  .services-home #item5 {
+    top: 15rem;
   }
   .curved-div {
     display: none;

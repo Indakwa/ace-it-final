@@ -70,6 +70,7 @@
             }
         }
     }
+
     .stats{
         
         font-size: 1.5rem;
@@ -109,6 +110,44 @@
         
     }
 
+    .services-home{
+        padding: 1rem 1rem 17rem 1rem;
+        margin-bottom: 2rem;
+
+        h2{
+            font-size: 1.6rem;
+        }
+
+        .item{
+            
+            .num{
+                width: 40px;
+                height: 40px;
+                font-size: 1rem;
+            }
+            p{
+                font-size: 1rem;
+                letter-spacing: 1px;
+                left: 3rem;
+                top: 0.4rem;
+
+            }
+
+            ul{
+                top: 4rem;
+                left: 4.5rem;
+                font-size: 1rem;
+                letter-spacing: 1px;
+            }
+        }
+
+        #item4{
+            top: 15rem;
+        }
+        #item5{
+            top: 15rem;
+        }
+    }
 
     .curved-div{
         display: none;

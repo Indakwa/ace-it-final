@@ -116,6 +116,48 @@
 
     </section>
 
+    <section class="services-home">
+
+            <h2>What We Offer</h2>
+            <hr>
+            <div class="item">
+                <div class="num">01</div>
+                <p>Search Engine Optimization (SEO) for your company, business or personal sites.</p>
+            </div>
+            <div class="item">
+                <div class="num">02</div>
+                <p>Transcriptions, voice overs and online classes.</p>
+            </div>
+            <div class="item">
+                <div class="num">03</div>
+                <p>Assignment help in the following subjects
+                    <ul>
+                        <li>Mathematics and statistics</li>
+                        <li>Economics</li>
+                        <li>English and literature</li>
+                        <li>History</li>
+                        <li>ICT & Web design </li>
+                        <li>Health sciences</li>
+                        <li>Database management and data entry</li>
+                        <li>Transcription</li>
+                        <li>Dissertations and projects proposals</li>
+                        <li>Robotics</li>
+                        <li>User specific assignments</li>
+                    </ul>
+                </p>
+            </div>
+            <div class="item" id="item4">
+                <div class="num">04</div>
+                <p>Article writing for your business or personal blogs on any subject.</p>
+            </div>
+            <div class="item" id="item5">
+                <div class="num">05</div>
+                <p>Tutoring services on sciences, literature, history and economics.</p>
+            </div>
+
+
+    </section>
+
     <section class="guarantee">
         <h3>We Guarantee you <i class="fas fa-shield-alt"></i></h3>
         <hr>

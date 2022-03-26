@@ -5,7 +5,7 @@
         .container{
 
             width: 95%;
-            height: 90vh;
+            height: 95vh;
 
             .content{
 
@@ -106,7 +106,7 @@
         font-size: 1.5rem;
         margin-top: -17rem;
         min-height: 550px;
-        margin-bottom: 4rem;
+        margin-bottom: 0rem;
         
     
         .stats-container{
@@ -132,6 +132,46 @@
               
         }
         
+    }
+
+    .services-home{
+        padding: 0 5rem 18rem 5rem;
+        margin-bottom: 4rem;
+
+        h2{
+            font-size: 2rem;
+        }
+
+
+        .item{
+            margin:  2rem 0;
+            
+            .num{
+                width: 50px;
+                height: 50px;
+                font-size: 2rem;
+            }
+            p{
+                font-size: 1rem;
+                left: 3.5rem;
+                top: 0.8rem;
+
+            }
+
+            ul{
+                top: 3rem;
+                left: 5rem;
+                font-size: 1rem;
+                line-height: 1.3rem;
+            }
+        }
+
+        #item4{
+            top: 14rem;
+        }
+        #item5{
+            top: 14rem;
+        }
     }
 
     .guarantee{

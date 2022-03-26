@@ -149,6 +149,76 @@
 
 @import 'stats';
 
+.services-home{
+    background: #e0e0e0;
+    padding: 0 5rem 25rem 5rem;
+    position: relative;
+    min-height: 100vh;
+    height: auto;
+    margin-bottom: 8rem;
+
+    h2{
+        text-align: center;
+        font-size: 4rem;
+        font-family: $headers;
+        letter-spacing: 2px;
+        color: $myBlue;
+    }
+
+    hr{
+        height: 10px;
+        width: 40%;
+        color: $myBlue;
+        background: $myBlue;
+        margin: 0 auto;
+    }
+
+    .item{
+        display: flex;
+        position: relative;
+        //border: 2px solid rgb(98, 0, 255);
+        margin:  2.5rem 0;
+        
+        .num{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            background: $myBlue;
+            width: 70px;
+            height: 70px;
+            font-size: 3rem;
+            font-family: $headers;
+        }
+        p{
+            position: absolute;
+            font-size: 1.7rem;
+            font-family: $headers;
+            letter-spacing: 2px;
+            left: 5rem;
+            top: 1rem;
+
+        }
+
+        ul{
+            position: absolute;
+            top: 5rem;
+            left: 7rem;
+            font-family: $normal;
+            font-size: 1.5rem;
+            letter-spacing: 1px;
+            font-weight: 600;
+        }
+    }
+
+    #item4{
+        top: 20rem;
+    }
+    #item5{
+        top: 20rem;
+    }
+}
+
 .guarantee{
     width: 70%;
     margin: 0 auto;
