@@ -207,7 +207,7 @@
 
                 <div id="mc_embed_signup_scroll">
 
-                    <input type="email"  placeholder="example@example.com" value="" name="EMAIL" class="required email" id="mce-EMAIL"/>
+                    <input type="email"  placeholder="example@exampl.com" value="" name="EMAIL" class="required email" id="mce-EMAIL"/>
                     <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
 
                     <div id="mce-responses" class="clear foot">
